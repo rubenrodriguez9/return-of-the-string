@@ -14,7 +14,18 @@ function getLastCharacter(lChar){
 function getOneCharacter(sam, num){
   return sam[num]
 }
-
+function getTwoCharacters(str, char, num){
+  return str[char] + str[num]
+}
+function makeCapitalized(word){
+  return word.toUpperCase();
+}
+function yellLouder(word){
+  return word.toUpperCase() + "!!!";
+}
+function getInitials(name){
+  return name[0] + '.'+ name[name.indexOf(' ') + 1] + '.'
+}
 
 
 
