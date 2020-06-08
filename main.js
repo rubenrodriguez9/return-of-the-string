@@ -2,6 +2,19 @@
  * YOUR CODE HERE! *
  *******************/
 
+function yell(exclaim){
+  return exclaim + '!';
+}
+function getFirstCharacter(fChar){
+  return fChar[0];
+}
+function getLastCharacter(lChar){
+  return lChar.charAt(lChar.length-1);
+}
+function getOneCharacter(sam, num){
+  return sam[num]
+}
+
 
 
 
